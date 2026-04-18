@@ -12,7 +12,7 @@ class AgentSettings(BaseSettings):
     """Agent 설정"""
 
     # 거래소 설정
-    exchange: str = "bitget"
+    exchange: str = "bybit"
     api_key: str
     api_secret: str
     api_passphrase: str = ""      # Bitget/OKX 전용
